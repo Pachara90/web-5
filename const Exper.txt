@@ -1,0 +1,81 @@
+  const techStack = [
+    {
+      icon: (
+        <SiNextdotjs className="text-black dark:text-white hover:scale-110 transition-transform" />
+      ),
+      name: "Next.js",
+      color: "text-black dark:text-white",
+      bgColor: "bg-black dark:bg-white",
+    },
+    {
+      icon: (
+        <SiTailwindcss className="text-sky-500 hover:scale-110 transition-transform" />
+      ),
+      name: "Tailwind",
+      color: "text-sky-500",
+      bgColor: "bg-sky-500",
+    },
+    {
+      icon: (
+        <SiNestjs className="text-red-500 hover:scale-110 transition-transform" />
+      ),
+      name: "NestJS",
+      color: "text-red-500",
+      bgColor: "bg-red-500",
+    },
+    {
+      icon: (
+        <SiMongodb className="text-green-500 hover:scale-110 transition-transform" />
+      ),
+      name: "MongoDB",
+      color: "text-green-500",
+      bgColor: "bg-green-500",
+    },
+    {
+      icon: (
+        <SiVuedotjs className="text-emerald-500 hover:scale-110 transition-transform" />
+      ),
+      name: "Vue",
+      color: "text-emerald-500",
+      bgColor: "bg-emerald-500",
+    },
+    {
+      icon: (
+        <SiNuxtdotjs className="text-lime-500 hover:scale-110 transition-transform" />
+      ),
+      name: "Nuxt",
+      color: "text-lime-500",
+      bgColor: "bg-lime-500",
+    },
+    {
+      icon: (
+        <SiAngular className="text-red-600 hover:scale-110 transition-transform" />
+      ),
+      name: "Angular",
+      color: "text-red-600",
+      bgColor: "bg-red-600",
+    },
+    {
+      icon: (
+        <SiSvelte className="text-orange-500 hover:scale-110 transition-transform" />
+      ),
+      name: "Svelte",
+      color: "text-orange-500",
+      bgColor: "bg-orange-500",
+    },
+    {
+      icon: (
+        <SiPrisma className="text-blue-600 hover:scale-110 transition-transform" />
+      ),
+      name: "Prisma",
+      color: "text-blue-600",
+      bgColor: "bg-blue-600",
+    },
+  ];
+
+  const experiences = [
+    { tech: "Next.js", level: "95%", years: "3 Years" },
+    { tech: "Vue", level: "90%", years: "4 Years" },
+    { tech: "Angular", level: "85%", years: "2 Years" },
+    { tech: "Svelte", level: "80%", years: "1 Year" },
+  ];
